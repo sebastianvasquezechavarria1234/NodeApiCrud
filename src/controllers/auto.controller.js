@@ -1,3 +1,6 @@
+/**
+ * Controladores para las operaciones CRUD de autos
+ */
 import * as db from "../utils/db.js";
 
 export const getAllAutos = (req, res) => {
