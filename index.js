@@ -15,7 +15,7 @@ app.use(express.json());
 
 // Routes
 app.get("/", (req, res) => {
-    res.send("Bienvenido a mi primera API con Node.js profesional! 🗿");
+    res.send("Bienvenido a mi primera API con Node.js profesional y segura! 🛡️🗿");
 });
 
 app.use("/autos", autoRoutes);
