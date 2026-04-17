@@ -1,11 +1,13 @@
 import express from "express";
 import cors from "cors";
+import helmet from "helmet";
 import autoRoutes from "./src/routes/auto.routes.js";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Middlewares
+app.use(helmet());
 app.use(cors());
 app.use(express.json());
 
