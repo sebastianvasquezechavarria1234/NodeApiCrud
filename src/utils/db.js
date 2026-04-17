@@ -1,3 +1,6 @@
+/**
+ * Utilidades para la persistencia de datos en JSON
+ */
 import fs from "fs";
 import path from "path";
 
