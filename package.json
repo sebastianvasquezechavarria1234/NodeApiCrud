@@ -5,6 +5,7 @@
   "license": "ISC",
   "author": "",
   "type": "module",
+  "keywords": ["node", "express", "crud", "api", "cars", "autos"],
   "main": "index.js",
   "scripts": {
     "dev": "nodemon index.js"
