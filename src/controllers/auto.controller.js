@@ -2,7 +2,18 @@ import * as db from "../utils/db.js";
 
 export const getAllAutos = (req, res) => {
     const data = db.readData();
-    res.json(data.autos);
+    let { categoria, nombre } = req.query;
+    let autos = data.autos;
+
+    if (categoria) {
+        autos = autos.filter(a => a.categoria?.toLowerCase() === categoria.toLowerCase());
+    }
+
+    if (nombre) {
+        autos = autos.filter(a => a.nombre?.toLowerCase().includes(nombre.toLowerCase()));
+    }
+
+    res.json(autos);
 };
 
 export const getAutoById = (req, res) => {
