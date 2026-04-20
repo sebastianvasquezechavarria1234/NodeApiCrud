@@ -33,3 +33,7 @@ Una API REST profesional construida con **Node.js** y **Express** para gestionar
 - `src/middlewares/`: Validaciones.
 - `src/routes/`: Endpoints.
 
+## 🤝 Contribución
+
+¡Las contribuciones son bienvenidas! Siente libre de abrir un issue o enviar un pull request para mejorar este proyecto.
+
