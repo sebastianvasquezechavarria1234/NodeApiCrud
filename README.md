@@ -32,4 +32,4 @@ Una API REST profesional construida con **Node.js** y **Express** para gestionar
 - `src/controllers/`: Lógica.
 - `src/middlewares/`: Validaciones.
 - `src/routes/`: Endpoints.
-- `src/utils/`: DB Helpers.
+
