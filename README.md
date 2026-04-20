@@ -32,4 +32,8 @@ Una API REST profesional construida con **Node.js** y **Express** para gestionar
 - `src/controllers/`: Lógica.
 - `src/middlewares/`: Validaciones.
 - `src/routes/`: Endpoints.
-- `src/utils/`: DB Helpers.
+
+## 🤝 Contribución
+
+¡Las contribuciones son bienvenidas! Siente libre de abrir un issue o enviar un pull request para mejorar este proyecto.
+
