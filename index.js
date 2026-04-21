@@ -20,6 +20,11 @@ app.get("/", (req, res) => {
 
 app.use("/autos", autoRoutes);
 
+// Health check
+app.get("/health", (req, res) => {
+    res.json({ status: "ok", uptime: process.uptime() });
+});
+
 // Error handling middleware
 app.use((err, req, res, next) => {
     console.error(err.stack);
