@@ -1,3 +1,9 @@
+/**
+ * @file index.js
+ * @description Main entry point for the NodeApiCrud application.
+ * @author sebastianvasquezechavarria1234 & Santi Vasquez
+ */
+
 import express from "express";
 import cors from "cors";
 import helmet from "helmet";
