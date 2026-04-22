@@ -1,3 +1,8 @@
+/**
+ * NodeApiCrud - A professional and secure API for managing cars.
+ * Developed as part of a learning journey with Node.js and Express.
+ */
+
 import express from "express";
 import cors from "cors";
 import helmet from "helmet";
@@ -14,6 +19,9 @@ app.use(cors());
 app.use(express.json());
 
 // Routes
+/**
+ * Root route to welcome users to the API.
+ */
 app.get("/", (req, res) => {
     res.send("Bienvenido a mi primera API con Node.js profesional y segura! 🛡️🗿");
 });
